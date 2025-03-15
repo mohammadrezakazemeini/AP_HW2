@@ -11,7 +11,7 @@ INFO_BAR_HEIGHT = 50
 CELL_SIZE = (WINDOW_SIZE - INFO_BAR_HEIGHT) // 4
 screen = pygame.display.set_mode((CELL_SIZE * 4, WINDOW_SIZE))
 pygame.display.set_caption("2048")
-icon_path = "icon_path"
+icon_path = "src/images/2048-icon.png"
 icon_image = pygame.image.load(icon_path)
 pygame.display.set_icon(icon_image)
 FONT_SIZE = 36
